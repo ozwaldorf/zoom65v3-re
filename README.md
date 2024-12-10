@@ -18,7 +18,7 @@ SVD: `todo: source or extract a proper svd`
 
 Open sourced firmware references:
 - https://github.com/qmk/qmk_firmware/tree/master/keyboards/monsgeek/m1 (same MCU is used in this board, wired only)
-- https://github.com/WestberryTech/qmk_westberry (vendor fork with default branch named tri-mode, promising, has bt drivers we might be able to use)
+- https://github.com/WestberryTech/qmk_westberry/tree/tri-mode/keyboards/westberry/wireless (vendor fork with default branch named tri-mode, promising, has bt drivers we might be able to use)
 
 ## Screen Module
 
