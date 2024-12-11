@@ -20,6 +20,21 @@ Open sourced firmware references:
 - https://github.com/qmk/qmk_firmware/tree/master/keyboards/monsgeek/m1 (same MCU is used in this board, wired only)
 - https://github.com/WestberryTech/qmk_westberry/tree/tri-mode/keyboards/westberry/wireless (vendor fork with default branch named tri-mode, promising, has bt drivers we might be able to use)
 
+### Layouts
+
+Visualized layout available at this [keyboard layout editor permalink](https://www.keyboard-layout-editor.com/##@_name=Zoom65%20v3&author=Meletrix%3B&@_x:2.5&c=%23aaaaaa%3B&=0,0&_c=%23cccccc%3B&=0,1&=0,2&=0,3&=0,4&=0,5&=0,6&=0,7&=0,8&=0,9&=0,10&=0,11&=0,12&_c=%23777777&w:2%3B&=0,13&_c=%23cccccc%3B&=0,14%0A%0A%0A3,0&_x:0.25%3B&=0,15%0A%0A%0A3,1%0A%0A%0A%0A%0A%0Ae0%3B&@_x:2.5&c=%23777777&w:1.5%3B&=1,0&_c=%23cccccc%3B&=1,1&=1,2&=1,3&=1,4&=1,5&=1,6&=1,7&=1,8&=1,9&=1,10&=1,11&=1,12&_x:0.25&c=%23aaaaaa&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=2,13%0A%0A%0A1,0&_c=%23777777%3B&=1,15&_x:1&w:1.5%3B&=1,13%0A%0A%0A1,1%3B&@_x:2.5&w:1.75%3B&=2,0&_c=%23cccccc%3B&=2,1&=2,2&=2,3&=2,4&=2,5&=2,6&=2,7&=2,8&=2,9&=2,10&=2,11&=2,12%0A%0A%0A1,0&_x:1.25&c=%23777777%3B&=2,15&_x:0.25&c=%23aaaaaa&w:2.25%3B&=2,13%0A%0A%0A1,1%3B&@_c=%23777777&w:1.25%3B&=3,0%0A%0A%0A0,1&_c=%23cccccc%3B&=3,11%0A%0A%0A0,1&_x:0.25&c=%23777777&w:2.25%3B&=3,0%0A%0A%0A0,0&_c=%23cccccc%3B&=3,1&=3,2&=3,3&=3,4&=3,5&=3,6&=3,7&=3,8&=3,9&=3,10&_c=%23777777&w:1.75%3B&=3,13&=3,14&=3,15%3B&@_x:2.5&w:1.25%3B&=4,0&_w:1.25%3B&=4,1&_w:1.25%3B&=4,2&_c=%23aaaaaa&w:6.25%3B&=4,5%0A%0A%0A2,0&_c=%23777777&w:1.25%3B&=4,10&_w:1.25%3B&=4,11&_x:0.5%3B&=4,13&=4,14&=4,15%3B&@_x:6.25&c=%23aaaaaa&w:2.25%3B&=4,3%0A%0A%0A2,1&_w:1.25%3B&=4,5%0A%0A%0A2,1&_w:2.75%3B&=4,7%0A%0A%0A2,1)
+
+### Pinouts
+
+|     | COL |   0 |   1 |   2 |   3 |   4 |   5 |   6 |   7 |   8 |   9 |  10 |  11 |  12 |  13 |  14 |  15 |
+|-----|-----|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
+| ROW | PIN | **S08** | **S07** | **S06** | **S03** | **S02** | **S01** | **E16** | **E13** | **E12** | **E11** | **E10** | **E09** | **E08** | **E07** | **E06** | **E05** |
+|   0 | **N12** | ESC |     |     |     |     |     |     |     |     |     |     |     |     | Back | module | module |
+|   1 | **N11** |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+|   2 | **N10** |     |     |     |     |     |     |     |     |     |     |     |     |     | Enter |     |     |
+|   3 | **N09** |     |     |     |     |     |     |     |     |     |     |     |     |     |     |  Up |     |
+|   4 | **N14** |     |     |     |     |     |     |     |     |     |     |     |     |     | Left | Down | Right |
+
 ## Screen Module
 
 ### HID/Via Commands
