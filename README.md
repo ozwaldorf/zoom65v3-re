@@ -26,6 +26,8 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 
 ### Pinouts
 
+#### Switch Matrix
+
 |         | COL       |   0 |    1 |    2 |    3 |    4 |    5 |    6 |    7 |    8 |    9 |   10 |   11 |   12 |   13 |   14 |   15 |
 |---------|-----------|----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
 | **ROW** | **_PIN_** | _C1_ | _C2_ | _C3_ | _A0_ | _A1_ | _A2_ | _A3_ | _A4_ | _A5_ | _A6_ | _A7_ | _C4_ | _C5_ | _B0_ | _B1_ | _B2_ |
@@ -34,6 +36,17 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 |   **2** |      _C8_ |     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 |   **3** |      _C9_ |     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
 |   **4** |      _B14_ |     |      |      |      |      |      |      |      |      |      |      |      |      |      |      |      |
+
+#### Ribbon Cable
+
+|         |  1 |   2 |  3 |  4 |      5 |  6 |   7 |   8 |   9 |  10 |     11 |  12 |  13 | 14 |
+|---------|---:|----:|---:|---:|-------:|---:|----:|----:|----:|----:|-------:|----:|----:|---:|
+| **PIN** | ?? | GND | ?? | ?? | B1     | A8 | B13 | C11 | C10 | VCC | B2     | C14 | C13 | ?? |
+| **Use** |    | -   |    |    | col 14 |    |     | RX  | TX  | +   | col 15 |     |     |    |
+
+- RX and TX are used for commands over UART
+- Column 14 + 15 are used for the rotary encoder
+- Column 14 is used for the onekey module
 
 ## Screen Module
 
