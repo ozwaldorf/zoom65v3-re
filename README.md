@@ -44,7 +44,7 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 | **PIN** | ?? | GND | ?? | ?? | B1     | A8 | B13 | C11 | C10 | VCC | B2     | C14 | C13 | ?? |
 | **Use** |    | -   |    |    | col 14 |    |     | RX  | TX  | +   | col 15 |     |     |    |
 
-- RX and TX are used for commands over UART
+- RX and TX are used for commands over UART3
 - Column 14 + 15 are used for the rotary encoder
 - Column 14 is used for the onekey module
 
