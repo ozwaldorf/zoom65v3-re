@@ -48,6 +48,13 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 - Column 14 + 15 are used for the rotary encoder
 - Column 14 is used for the onekey module
 
+#### Input pins
+
+- `B9`: High when usb cable is plugged in, low when unplugged
+- `B8`: Battery level; low when charging, high fully charged
+- `A14`: `低导通，USB正常识别，无线时请给高电平，断开USB` (Low conduction, USB recognized normally, please provide high level when wireless, disconnect USB)
+- `C1`: `BT-2.4GIO检测高电平时为无线` (BT-2.4GIO detects high level when wireless)
+
 ## Screen Module
 
 ### HID/Via Commands
