@@ -48,12 +48,12 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 - Column 14 + 15 are used for the rotary encoder
 - Column 14 is used for the onekey module
 
-#### Input pins
+#### Other important MCU pins
 
-- `B9`: High when usb cable is plugged in, low when unplugged
-- `B8`: Battery level; low when charging, high fully charged
-- `A14`: `低导通，USB正常识别，无线时请给高电平，断开USB` (Low conduction, USB recognized normally, please provide high level when wireless, disconnect USB)
-- `C1`: `BT-2.4GIO检测高电平时为无线` (BT-2.4GIO detects high level when wireless)
+- `B9`: USB Cable detection; high when usb cable is plugged in, low when unplugged
+- `B8`: Battery level signal; low when charging, high fully charged
+- `A14`: USB Data enable; "Low conduction, USB is correctly recognized. In wireless mode, please provide a high-level signal and disconnect USB."
+- `C1`: On-Off Switch; `BT-2.4GIO检测高电平时为无线` (BT-2.4GIO detects high level when wireless)
 - `B7`: LED-V; enable power by setting pin to open drain output
 - `B12`: LED-V1; TBD, maybe boost pin ?
 
