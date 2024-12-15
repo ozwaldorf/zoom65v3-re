@@ -50,6 +50,8 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 
 #### Other important MCU pins
 
+- `A9`: Wireless MCU UART TX
+- `A10`: Wireless MCU UART RX
 - `B9`: USB Cable detection; high when usb cable is plugged in, low when unplugged
 - `B8`: Battery level signal; low when charging, high fully charged
 - `A14`: USB Data enable; "Low conduction, USB is correctly recognized. In wireless mode, please provide a high-level signal and disconnect USB."
