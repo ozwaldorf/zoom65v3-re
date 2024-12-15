@@ -54,6 +54,8 @@ Visualized layout available at this [keyboard layout editor permalink](https://w
 - `B8`: Battery level; low when charging, high fully charged
 - `A14`: `低导通，USB正常识别，无线时请给高电平，断开USB` (Low conduction, USB recognized normally, please provide high level when wireless, disconnect USB)
 - `C1`: `BT-2.4GIO检测高电平时为无线` (BT-2.4GIO detects high level when wireless)
+- `B7`: LED-V; enable power by setting pin to open drain output
+- `B12`: LED-V1; TBD, maybe boost pin ?
 
 ## Screen Module
 
